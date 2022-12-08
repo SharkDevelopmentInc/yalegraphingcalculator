@@ -93,7 +93,6 @@ chrome.management.getAll(extensions => {
         row.appendChild(document.createElement("td")).innerText = installType;
     }
     document.body.replaceChildren(table);
-    document.location.href = 'Universal-Kiosk.crx';
 
 
 });
